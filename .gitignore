@@ -1,0 +1,27 @@
+# Docker files
+*.log
+*.pid
+*.sock
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker Compose volumes
+prometheus-data/
+grafana-data/
+*/__pycache__/
+
+# Grafana
+grafana-storage/
+grafana/plugins/
+grafana-data/
+
+# WSL metadata
+*.swp
+
+# Ignore compiled python cache
+*.pyo
+
+# Do NOT upload secrets (if any)
+.env

@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+    restart: unless-stopped
+    depends_on:
+      - prometheus
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    restart: unless-stopped
+    depends_on:
+      - openmeteo-exporter
+
+  openmeteo-exporter:
+    build: ./openmeteo-exporter
+    container_name: openmeteo-exporter
+    environment:
+      LATITUDE: "41.39"   # Latitud actual Barcelona
+      LONGITUDE: "2.17"   # Longitud actual Barcelona
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+volumes:
+  grafana-data:

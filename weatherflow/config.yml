@@ -1,0 +1,6 @@
+station_id: TU_STATION_ID
+token: TU_TOKEN_WEATHERFLOW
+
+listen:
+  address: 0.0.0.0
+  port: 8080
