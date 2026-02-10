@@ -1,0 +1,1704 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 0,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "text": "☀️ Despejado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "1": {
+                  "text": "🌤️ Mayormente despejado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "2": {
+                  "text": "🌥️ Parcialmente nublado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "3": {
+                  "text": "☁️ Nublado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "45": {
+                  "text": "🌫️ Niebla"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "48": {
+                  "text": "🌫️ Niebla con escarcha"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "51": {
+                  "text": "🌦️ Llovizna ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "53": {
+                  "text": "🌦️ Llovizna moderada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "55": {
+                  "text": "🌧️ Llovizna densa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "56": {
+                  "text": "🌧️ Llovizna helada ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "57": {
+                  "text": "🌧️ Llovizna helada densa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "61": {
+                  "text": "🌧️ Lluvia ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "63": {
+                  "text": "🌧️ Lluvia moderada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "65": {
+                  "text": "🌧️ Lluvia intensa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "66": {
+                  "text": "🌧️ Lluvia helada ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "67": {
+                  "text": "🌧️ Lluvia helada intensa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "71": {
+                  "text": "🌨️ Nieve ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "73": {
+                  "text": "🌨️ Nieve moderada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "75": {
+                  "text": "❄️ Nieve intensa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "77": {
+                  "text": "🌨️ Granizos de nieve"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "80": {
+                  "text": "🌧️ Chubascos ligeros"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "81": {
+                  "text": "🌧️ Chubascos moderados"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "82": {
+                  "text": "🌧️ Chubascos intensos"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "85": {
+                  "text": "🌨️ Chubascos de nieve ligeros"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "86": {
+                  "text": "🌨️ Chubascos de nieve intensos"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "95": {
+                  "text": "⛈️ Tormenta"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "96": {
+                  "text": "⛈️ Tormenta con granizo"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "99": {
+                  "text": "⛈️ Tormenta fuerte con granizo"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "id": 101,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "center",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "value_and_name",
+        "wideLayout": true
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_weather_code",
+          "legendFormat": "Condición",
+          "refId": "A"
+        }
+      ],
+      "title": "Condición Actual",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "max": 40,
+          "min": -10,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "blue",
+                "value": 0
+              },
+              {
+                "color": "green",
+                "value": 10
+              },
+              {
+                "color": "yellow",
+                "value": 20
+              },
+              {
+                "color": "orange",
+                "value": 30
+              },
+              {
+                "color": "red",
+                "value": 35
+              }
+            ]
+          },
+          "unit": "celsius"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 3,
+        "y": 0
+      },
+      "id": 102,
+      "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_temperature_c",
+          "refId": "A"
+        }
+      ],
+      "title": "Temperatura Actual (°C)",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 7,
+        "y": 0
+      },
+      "id": 103,
+      "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_humidity_pct{hour=\"0\"}",
+          "refId": "A"
+        }
+      ],
+      "title": "Humedad (%)",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "mm"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 11,
+        "y": 0
+      },
+      "id": 104,
+      "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_precip_mm{hour=\"0\"}",
+          "refId": "A"
+        }
+      ],
+      "title": "Lluvia (última hora, mm)",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "pressurehpa"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 15,
+        "y": 0
+      },
+      "id": 105,
+      "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_pressure_hpa{hour=\"0\"}",
+          "refId": "A"
+        }
+      ],
+      "title": "Presión (hPa)",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "m/s"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 19,
+        "y": 0
+      },
+      "id": 106,
+      "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_wind_speed_ms",
+          "refId": "A"
+        }
+      ],
+      "title": "Viento (m/s)",
+      "type": "gauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "degree"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 3,
+        "x": 0,
+        "y": 4
+      },
+      "id": 107,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "auto",
+        "wideLayout": true
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_wind_direction_deg",
+          "refId": "A"
+        }
+      ],
+      "title": "Dirección del viento (°)",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "h0"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "fixedColor": "#73BF69",
+                  "mode": "fixed"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 3,
+        "y": 4
+      },
+      "id": 201,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_temperature_c",
+          "legendFormat": "h{{hour}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Temperatura — Últimas 6 horas",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 11,
+        "y": 4
+      },
+      "id": 202,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_humidity_pct",
+          "legendFormat": "h{{hour}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Humedad — Últimas 6 horas",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "mm"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 0,
+        "y": 10
+      },
+      "id": 203,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_precip_mm",
+          "legendFormat": "h{{hour}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Lluvia — Últimas 6 horas (mm)",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "pressurehpa"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 12,
+        "y": 10
+      },
+      "id": 204,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_hourly_pressure_hpa",
+          "legendFormat": "h{{hour}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Presión — Últimas 6 horas (hPa)",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "max": 100,
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "yellow",
+                "value": 50
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 0,
+        "y": 16
+      },
+      "id": 301,
+      "options": {
+        "displayMode": "basic",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_daily_precip_probability",
+          "legendFormat": "Día {{day}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Probabilidad de lluvia (próximos 7 días, %)",
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "mm"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 8,
+        "y": 16
+      },
+      "id": 302,
+      "options": {
+        "displayMode": "basic",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_daily_precip_mm",
+          "legendFormat": "Día {{day}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Precipitación acumulada (próximos 7 días, mm)",
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "celsius"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 16,
+        "y": 16
+      },
+      "id": 303,
+      "options": {
+        "displayMode": "gradient",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_daily_temp_max",
+          "legendFormat": "Día {{day}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Temperatura máxima (7 días, °C)",
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "celsius"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 0,
+        "y": 22
+      },
+      "id": 304,
+      "options": {
+        "displayMode": "gradient",
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": false
+        },
+        "maxVizHeight": 300,
+        "minVizHeight": 16,
+        "minVizWidth": 8,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "sizing": "auto",
+        "valueMode": "color"
+      },
+      "pluginVersion": "12.3.2",
+      "targets": [
+        {
+          "expr": "openmeteo_daily_temp_min",
+          "legendFormat": "Día {{day}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Temperatura mínima (7 días, °C)",
+      "type": "bargauge"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "cfcbvgce9or28f"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "text": "☀️ Despejado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "1": {
+                  "text": "🌤️ Mayormente despejado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "2": {
+                  "text": "🌥️ Parcialmente nublado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "3": {
+                  "text": "☁️ Nublado"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "45": {
+                  "text": "🌫️ Niebla"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "48": {
+                  "text": "🌫️ Niebla c/ escarcha"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "51": {
+                  "text": "🌦️ Llovizna ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "53": {
+                  "text": "🌦️ Llovizna moderada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "55": {
+                  "text": "🌧️ Llovizna densa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "56": {
+                  "text": "🌧️ Llovizna helada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "57": {
+                  "text": "🌧️ Llovizna helada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "61": {
+                  "text": "🌧️ Lluvia ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "63": {
+                  "text": "🌧️ Lluvia moderada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "65": {
+                  "text": "🌧️ Lluvia intensa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "66": {
+                  "text": "🌧️ Lluvia helada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "67": {
+                  "text": "🌧️ Lluvia helada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "71": {
+                  "text": "🌨️ Nieve ligera"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "73": {
+                  "text": "🌨️ Nieve moderada"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "75": {
+                  "text": "❄️ Nieve intensa"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "77": {
+                  "text": "🌨️ Granizos de nieve"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "80": {
+                  "text": "🌧️ Chubascos ligeros"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "81": {
+                  "text": "🌧️ Chubascos moderados"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "82": {
+                  "text": "🌧️ Chubascos intensos"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "85": {
+                  "text": "🌨️ Chubascos nieve lig."
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "86": {
+                  "text": "🌨️ Chubascos nieve int."
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "95": {
+                  "text": "⛈️ Tormenta"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "96": {
+                  "text": "⛈️ Tormenta c/ granizo"
+                }
+              },
+              "type": "value"
+            },
+            {
+              "options": {
+                "99": {
+                  "text": "⛈️ Tormenta fuerte/granizo"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 24,
+        "x": 0,
+        "y": 28
+      },
+      "id": 305,
+      "maxPerRow": 7,
+      "options": {
+        "colorMode": "none",
+        "graphMode": "none",
+        "justifyMode": "center",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "value_and_name",
+        "wideLayout": true
+      },
+      "pluginVersion": "12.3.2",
+      "repeat": "DAY",
+      "repeatDirection": "h",
+      "targets": [
+        {
+          "expr": "openmeteo_daily_weather_code{day=\"${DAY}\"}",
+          "legendFormat": "Día ${DAY}",
+          "refId": "A"
+        }
+      ],
+      "title": "Icono pronóstico — Día ${DAY}",
+      "type": "stat"
+    }
+  ],
+  "preload": false,
+  "refresh": "30s",
+  "schemaVersion": 42,
+  "tags": [
+    "weather",
+    "openmeteo",
+    "advanced",
+    "7days"
+  ],
+  "templating": {
+    "list": [
+      {
+        "current": {
+          "text": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "value": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "includeAll": false,
+        "label": "Días pronóstico",
+        "multi": true,
+        "name": "DAY",
+        "options": [
+          {
+            "selected": true,
+            "text": "0",
+            "value": "0"
+          },
+          {
+            "selected": true,
+            "text": "1",
+            "value": "1"
+          },
+          {
+            "selected": true,
+            "text": "2",
+            "value": "2"
+          },
+          {
+            "selected": true,
+            "text": "3",
+            "value": "3"
+          },
+          {
+            "selected": true,
+            "text": "4",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "5",
+            "value": "5"
+          },
+          {
+            "selected": true,
+            "text": "6",
+            "value": "6"
+          }
+        ],
+        "query": "0,1,2,3,4,5,6",
+        "type": "custom"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-15m",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Open‑Meteo — Meteorología Avanzada + 7 días",
+  "uid": "95629ebf-5fac-4a3a-bfde-5621609a1427",
+  "version": 2
+}
