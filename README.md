@@ -60,45 +60,46 @@ Proveedor gratuito de datos meteorológicos
 No necesita token
 Proporciona datos horarios, actuales y pronósticos
 
+https://open-meteo.com/en/docs/geocoding-api
+https://geocoding-api.open-meteo.com/v1/search?name=TU_CUIDAD
+
+
 2. Exporter Python
 
-Se ejecuta en Docker
-Llama a Open‑Meteo
+Se ejecuta en Docker y llama a Open‑Meteo
 Convierte los datos a métricas Prometheus
-Exposición en:
-http://localhost:8000/metrics
+Disponibles: http://localhost:8000/metrics
 
 3️. Prometheus
 
-Se encarga de “rascar” (scrapear) las métricas
-Las almacena y organiza
-Consulta:
-http://localhost:9090
+Se encarga de scrapear las métricas, las almacena y organiza
+Disponibles: http://localhost:9090
 
 4️. Grafana
 
-Interfaz visual
-Dashboards meteorológicos avanzados
-Iconos meteorológicos
-Interacción alumno-profesor
-Acceso:
-http://localhost:3000
+Interfaz visual mediante dashboards meteorológicos avanzados
+
+Disponible: http://localhost:3000
+
 
 ## Comandos básicos
 
-En progreso:
+Habilitar WSL en Windows, guía oficial de Microsoft: https://learn.microsoft.com/es-es/windows/wsl/install
+
+Para ver la versión de WSL: wsl --version
+Para ver listado de distribuciones disponibles: wsl.exe --list --online
+Para instalar distribuciones: wsl.exe --install [Distro]
+Para listar las distribuciones instaladas: wsl -l -v
+
+La elegida para este proyecto ha sido Debian
 
 Levantar servicios: docker-compose up -d
-
+Apagar el sistema: docker-compose down
 Reconstruir: docker-compose build openmeteo-exporter
+Ver los contenedores activos: docker ps
+Ver logs del exporter: docker logs -f openmeteo-exporter
 
-Open-meteo API: https://geocoding-api.open-meteo.com/v1/search?name=NOMBRE_CIUDAD
-
-Acceder a métricas:
-- Exporter: http://localhost:8000/metrics
-- Prometheus: http://localhost:9090
-- Grafana: http://localhost:3000
 
 ## Métricas con WeatherFlow
 
-En progreso:
+En construcción
