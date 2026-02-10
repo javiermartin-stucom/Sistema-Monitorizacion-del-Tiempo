@@ -1,6 +1,7 @@
 # Documentación para el alumnado de Stucom, Barcelona del grado superior en ASIX, DAW y DAM.
 
 Herramientas: Prometheus + Grafana + Exporter Open‑Meteo
+
 Distribución: WSL2 + Debian + Docker + Docker Compose
 
 Este sistema de monitorización recogerá datos meteorológicos reales usando Open‑Meteo (sin API key) para así:
@@ -87,16 +88,23 @@ Disponible: http://localhost:3000
 Habilitar WSL en Windows, guía oficial de Microsoft: https://learn.microsoft.com/es-es/windows/wsl/install
 
 Para ver la versión de WSL: wsl --version
+
 Para ver listado de distribuciones disponibles: wsl.exe --list --online
+
 Para instalar distribuciones: wsl.exe --install [Distro]
+
 Para listar las distribuciones instaladas: wsl -l -v
 
 La elegida para este proyecto ha sido Debian
 
 Levantar servicios: docker-compose up -d
+
 Apagar el sistema: docker-compose down
+
 Reconstruir: docker-compose build openmeteo-exporter
+
 Ver los contenedores activos: docker ps
+
 Ver logs del exporter: docker logs -f openmeteo-exporter
 
 
