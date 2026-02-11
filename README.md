@@ -1,4 +1,6 @@
-# Documentación para el alumnado de Stucom, Barcelona del grado superior en ASIX, DAW y DAM. Este documento solamente tiene fines educativos.
+# Documentación para el alumnado de Stucom, Barcelona del grado superior en ASIX, DAW y DAM.
+
+Este documento solamente tiene fines educativos.
 
 Herramientas: Prometheus + Grafana + Exporter Open‑Meteo
 
