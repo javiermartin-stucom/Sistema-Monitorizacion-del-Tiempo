@@ -1,4 +1,4 @@
-# Documentación para el alumnado de Stucom, Barcelona del grado superior en ASIX, DAW y DAM.
+# Documentación para el alumnado de Stucom, Barcelona del grado superior en ASIX, DAW y DAM. Este documento solamente tiene fines educativos.
 
 Herramientas: Prometheus + Grafana + Exporter Open‑Meteo
 
@@ -91,11 +91,13 @@ Para ver la versión de WSL: wsl --version
 
 Para ver listado de distribuciones disponibles: wsl.exe --list --online
 
-Para instalar distribuciones: wsl.exe --install [Distro]
+Para instalar distribuciones: wsl.exe --install [Distro] o también podemos instalarlas desde Microsoft Store
 
 Para listar las distribuciones instaladas: wsl -l -v
 
 La elegida para este proyecto ha sido Debian
+
+Una vez virtualizada nuestra distribución actualizamos sistema y paquetes.
 
 Levantar servicios: docker-compose up -d
 
