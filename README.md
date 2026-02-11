@@ -111,6 +111,9 @@ Ver los contenedores activos: docker ps
 
 Ver logs del exporter: docker logs -f openmeteo-exporter
 
+<img width="1466" height="481" alt="image" src="https://github.com/user-attachments/assets/803d914f-c6ca-4aeb-9f31-0f328f299d4b" />
+
+
 
 ## Métricas con WeatherFlow
 
