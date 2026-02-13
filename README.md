@@ -111,9 +111,15 @@ Ver los contenedores activos: docker ps
 
 Ver logs del exporter: docker logs -f openmeteo-exporter
 
+## Configuración dashboard Grafana
+
 <img width="1466" height="481" alt="image" src="https://github.com/user-attachments/assets/803d914f-c6ca-4aeb-9f31-0f328f299d4b" />
 
+Primer paso es configurar el acceso, cambiar contrase admin en el localhost:3000
 
+Configurar nuestro data source con Prometheus
+
+Podemos contruir nuestro primer dashboard desde 0 con datasource: Prometheus y métricas o utilizar una plantilla, disponible en formato JSON: https://grafana.com/grafana/dashboards/
 
 ## Métricas con WeatherFlow
 
