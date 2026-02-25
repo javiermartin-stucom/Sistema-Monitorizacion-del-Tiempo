@@ -113,7 +113,11 @@ Ver logs del exporter: docker logs -f openmeteo-exporter
 
 ## Configuración dashboard Grafana
 
-<img width="1466" height="481" alt="image" src="https://github.com/user-attachments/assets/803d914f-c6ca-4aeb-9f31-0f328f299d4b" />
+<img width="1438" height="718" alt="image" src="https://github.com/user-attachments/assets/4eaececd-fcd8-45ae-8fbe-9f1e2eaa982e" />
+
+<img width="1400" height="835" alt="image" src="https://github.com/user-attachments/assets/62851e25-584d-44af-a665-60113f3cb749" />
+
+
 
 Primer paso es configurar el acceso, cambiar contrase admin en el localhost:3000
 
